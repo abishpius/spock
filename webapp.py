@@ -21,7 +21,7 @@ from langchain.memory import ConversationBufferWindowMemory
 
 
 # Configure the client library by providing your API key.
-# palm.configure(api_key="AIzaSyBNQ-TmL3w1K54BwtjjoWPRaY-SHesJhxw")
+
 os.environ["GOOGLE_API_KEY"] = "AIzaSyBNQ-TmL3w1K54BwtjjoWPRaY-SHesJhxw"
 
 # Initialize LLM
