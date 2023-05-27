@@ -22,7 +22,7 @@ from langchain.memory import ConversationBufferWindowMemory
 
 # Configure the client library by providing your API key.
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBNQ-TmL3w1K54BwtjjoWPRaY-SHesJhxw"
+os.environ["GOOGLE_API_KEY"] = st.secrets['DB_API_KEY']
 
 # Initialize LLM
 llm = GooglePalm(temperature = 1.0,
